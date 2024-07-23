@@ -11,6 +11,10 @@ public class Contact {
         this.phoneNumber = phoneNumber;
     }
 
+    public String getPhoneNumber(){
+        return phoneNumber;
+    }
+
     public String getFirstName() {
         return firstName;
     }
